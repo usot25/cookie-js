@@ -60,5 +60,5 @@
     setCookie("_ga", "GA1.2.123456789", { days: 730, sameSite: "Lax" });
     setCookie("_fbp", "fb.1.123456789", { days: 90, sameSite: "None", secure: true });
 
-    console.log("Cookies injected manually");
+    console.log("first party cookies injected manually (6)");
 })();
