@@ -45,26 +45,26 @@
     }
 
     // Performance Cookie (Analytics-like)
-    setCookie("Performance Cookie", "Performance Cookie!", {
+    setCookie("performance_cookie", "performance_Cookie!", {
         days: 30,
         sameSite: "Lax"
     });
 
     // Functional Cookie
-    setCookie("Functional Cookie", "Functional Cookie!", {
+    setCookie("functional_cookie", "functional_cookie!", {
         days: 30,
         sameSite: "Lax"
     });
 
     // Targeting Cookie (Ad/Tracking-like → cross-site)
-    setCookie("Targeting Cookie", "Targeting Cookie!", {
+    setCookie("targeting_cookie", "targeting_cookie!", {
         days: 90,
         sameSite: "None",
         secure: true
     });
 
     // Social Media Cookie (cross-site)
-    setCookie("Social Media Cookie", "Social Cookie!", {
+    setCookie("social_media_cookie", "social_cookie!", {
         days: 90,
         sameSite: "None",
         secure: true
