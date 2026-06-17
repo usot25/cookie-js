@@ -32,32 +32,32 @@
     }
 
     // Performance Cookie (Analytics-like)
-    setCookie("performance_cookie", "performance_Cookie!", {
+    setCookie("first_performance_cookie", "performance_Cookie!", {
         days: 30,
         sameSite: "Lax"
     });
 
     // Functional Cookie
-    setCookie("functional_cookie", "functional_cookie!", {
+    setCookie("first_functional_cookie", "functional_cookie!", {
         days: 30,
         sameSite: "Lax"
     });
 
     // Targeting Cookie (Ad/Tracking-like → cross-site)
-    setCookie("targeting_cookie", "targeting_cookie!", {
+    setCookie("first_targeting_cookie", "targeting_cookie!", {
         days: 90,
         sameSite: "None",
         secure: true
     });
 
     // Social Media Cookie (cross-site)
-    setCookie("social_media_cookie", "social_cookie!", {
+    setCookie("first_social_media_cookie", "social_cookie!", {
         days: 90,
         sameSite: "None",
         secure: true
     });
 
-    setCookie("_ga", "GA1.2.123456789", { days: 730, sameSite: "Lax" });
-    setCookie("_fbp", "fb.1.123456789", { days: 90, sameSite: "None", secure: true });
+    setCookie("first_ga", "GA1.2.123456789", { days: 730, sameSite: "Lax" });
+    setCookie("first_fbp", "fb.1.123456789", { days: 90, sameSite: "None", secure: true });
     console.log("first party cookies injected manually (6)");
 })();

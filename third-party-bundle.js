@@ -11,7 +11,6 @@
         document.body.appendChild(iframe);
     }
 
-    // Delay like real trackers (after page load)
     if (document.readyState === "complete") {
         loadThirdPartyFrame();
     } else {
